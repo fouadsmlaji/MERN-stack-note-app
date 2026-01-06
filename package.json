@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "dotenv": "^17.2.3"
-  }
+  },
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "npm install --prefix frontend && npm install --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fouadsmlaji/MERN-stack-note-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fouadsmlaji/MERN-stack-note-app/issues"
+  },
+  "homepage": "https://github.com/fouadsmlaji/MERN-stack-note-app#readme"
 }
