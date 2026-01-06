@@ -8,7 +8,7 @@ const ratelimit = new Ratelimit({
     url: process.env.UPSTASH_REDIS_REST_URL,
     token: process.env.UPSTASH_REDIS_REST_TOKEN,
   }),
-  limiter: Ratelimit.slidingWindow(2, "60 s"), // 100 requests per 60 seconds
+  limiter: Ratelimit.slidingWindow(20, "10 s"), // 100 requests per 60 seconds
 });
 
 export default ratelimit;
